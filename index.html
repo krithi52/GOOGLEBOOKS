@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style> 
+	
+#title {
+  width: 300px;
+  height: 100%;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 10s infinite;
+}
+
+#title {animation-timing-function: linear;}
+
+@keyframes mymove {
+  from {left: 10px;}
+  to {left: 100%;}
+}
+.example1 {
+  background-image: url("book.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+</style>
+</head>
+<body bgcolor="blue" class="example1"><br><br>
+<h1 style="text-align:center;color:blue"><b>BOOKS OF UR CHOICE</b></h1>
+	<div class="container">
+	  <div id="title" class="text-center mt-5" class="text-center"><b>SEARCH YOUR FAVOURITE BOOK</b></div><br>
+		<div class="row">
+			<div id="input" class="input-group mx-auto col-lg-6 col-md-8 col-sm-12">
+				<input id="search-box" type="text" class="form-control" placeholder="SEARCH BOOKS!!!">
+				<button id="search" class="btn btn-primary" onclick="">search</button>
+			</div>
+		</div>
+	   </div>
+	<div class="book-list">
+		<h2 class="text-center" style="color:black">Search Results</h2>
+		<div id="list-output">
+			<div class="row">
+			</div>
+		</div>
+	</div>
+	</div>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/books1.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
