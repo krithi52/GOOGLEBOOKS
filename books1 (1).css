@@ -1,0 +1,20 @@
+/* css for body*/
+body{
+	height:100%;
+	background-color: #017199;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*css for headings*/
+h2,h1
+{
+	font-family: sans-serif;
+	color:blue;
+}
+/*css for class book-list*/
+.book-list
+{
+	margin-top: 50px;
+	visibility:visible;
+}
